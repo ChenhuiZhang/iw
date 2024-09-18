@@ -1,0 +1,15 @@
+[package]
+name = "bcam-scan"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.70"
+async-ssh2-tokio = { version = "0.6.4", features = ["openssl"] }
+lazy_static = "1.4.0"
+network-interface = "1.0.0"
+pinger = "0.8.0"
+russh = "0.37.1"
+tokio = { version = "1.27.0", features = ["full"] }
